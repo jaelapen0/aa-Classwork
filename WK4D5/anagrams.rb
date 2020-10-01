@@ -31,7 +31,7 @@ p first_anagram?("cat", "tac")
 # # find the index of that letter in the second string (hint: use Array#find_index) and delete at that index. 
 # # The two strings are anagrams if an index is found for every letter and the second string is empty at the end of the iteration.
 
-def second_anagram?(str1, str2) #n*m
+def second_anagram?(str1, str2) #n*m 
     str1 = str1.split("") #n
     str2 = str2.split("") #m
     str1.each do |char| #n
