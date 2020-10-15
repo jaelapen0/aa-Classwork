@@ -1,0 +1,1 @@
+1. How to write on integration spec that lets us check the authorization and authentication methods indirectly
