@@ -1,0 +1,61 @@
+/* PHASE 7: Online */
+
+.profile-picture {
+  overflow: hidden;
+  margin-top: -100px;
+  position: relative;
+  
+
+}
+
+.profile-picture  a img{
+  border: purple;
+  border-width: 15px;
+}
+
+.profile-nav{
+  margin-top: 10px;
+}
+
+.profile-nav ul li {
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid lightgray;
+}
+
+.profile-nav ul li:first-child{
+  border-top: solid 1px lightgray;
+}
+
+.profile-nav ul li:hover {
+  /* font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px; */
+  background-color: lightgray;
+}
+.profile-info{
+  
+}
+
+.name {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.online {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  font-weight: 700;
+  color: #fff;
+  background: #0c0;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  transform: rotate(-45deg) translateX(-25%);
+  box-shadow: 0 1px 0 0 #070;
+  
+}
